@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "SUPopView.h"
 
-@interface ViewController ()
+@interface ViewController ()<SUPopViewDelegate>
 
 @end
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn=[[UIButton alloc]init];
+    btn.frame=CGRectMake(100, 200, 70, 30);
+    [btn addTarget:self action:@selector(clickAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+-(void)clickAction{
+    SUPopView *popView = [SUPopView popViewConfirmBtnTitle:@"确定" cancleBtnTitle:@"取消"];
+    popView.delegate = self;
+    [popView showInView:self.view];
 }
 
 

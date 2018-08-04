@@ -16,6 +16,7 @@
 		CFC4221421133667007BE38C /* SUPopViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4221321133667007BE38C /* SUPopViewDemoTests.m */; };
 		CFC4221F21133667007BE38C /* SUPopViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4221E21133667007BE38C /* SUPopViewDemoUITests.m */; };
 		CFC4222E211336A7007BE38C /* SUPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4222D211336A7007BE38C /* SUPopView.m */; };
+		CFC4223121157483007BE38C /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4223021157483007BE38C /* UIView+Addition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CFC4222021133667007BE38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC4222C211336A7007BE38C /* SUPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUPopView.h; sourceTree = "<group>"; };
 		CFC4222D211336A7007BE38C /* SUPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUPopView.m; sourceTree = "<group>"; };
+		CFC4222F21157482007BE38C /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		CFC4223021157483007BE38C /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				CFC421FE21133665007BE38C /* ViewController.m */,
 				CFC4222C211336A7007BE38C /* SUPopView.h */,
 				CFC4222D211336A7007BE38C /* SUPopView.m */,
+				CFC4222F21157482007BE38C /* UIView+Addition.h */,
+				CFC4223021157483007BE38C /* UIView+Addition.m */,
 				CFC4220021133665007BE38C /* Main.storyboard */,
 				CFC4220321133667007BE38C /* Assets.xcassets */,
 				CFC4220521133667007BE38C /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC4222E211336A7007BE38C /* SUPopView.m in Sources */,
+				CFC4223121157483007BE38C /* UIView+Addition.m in Sources */,
 				CFC421FF21133665007BE38C /* ViewController.m in Sources */,
 				CFC4220A21133667007BE38C /* main.m in Sources */,
 				CFC421FC21133665007BE38C /* AppDelegate.m in Sources */,
