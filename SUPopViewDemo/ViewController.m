@@ -20,7 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIButton *btn=[[UIButton alloc]init];
-    btn.frame=CGRectMake(100, 200, 70, 30);
+    btn.frame=CGRectMake(100, 200, 100, 40);
+    [btn setBackgroundColor:[UIColor yellowColor]];
+    [btn setTitle:@"按钮" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(clickAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 }

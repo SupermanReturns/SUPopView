@@ -53,14 +53,14 @@
         containerView.userInteractionEnabled = YES;
         containerView.layer.cornerRadius = 5.0f;
         containerView.clipsToBounds = YES;
-        //        containerView.backgroundColor=[UIColor yellowColor];
+                containerView.backgroundColor=[UIColor greenColor];
         [self addSubview:containerView];
         _containerView = containerView;
         
         
         UIImageView *topImaBack=[[UIImageView alloc]init];
         topImaBack.frame=CGRectMake(50*ScreenScale,20*ScreenScale ,containerView.width-100*ScreenScale ,40*ScreenScale );
-        topImaBack.image=[UIImage imageNamed:@"yqmysc"];
+//        topImaBack.image=[UIImage imageNamed:@"yqmysc"];
         [_containerView addSubview:topImaBack];
         
         UILabel *titLabel=[[UILabel alloc]init];
