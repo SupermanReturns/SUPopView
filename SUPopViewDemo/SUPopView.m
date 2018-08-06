@@ -92,6 +92,7 @@
         UIButton *dismissBtn=[[UIButton alloc]init];
         dismissBtn.frame=CGRectMake(containerView.width-40*ScreenScale,10,25*ScreenScale,25*ScreenScale);
         [dismissBtn setBackgroundImage:[UIImage imageNamed:@"cancel"] forState:UIControlStateNormal];
+        [dismissBtn setBackgroundColor:[UIColor redColor]];
         [dismissBtn addTarget:self action:@selector(clickCloseBtn) forControlEvents:UIControlEventTouchUpInside];
         [_containerView addSubview:dismissBtn];
         
